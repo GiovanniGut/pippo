@@ -111,7 +111,7 @@
                     body: JSON.stringify({ 
                         contents: [{ parts: [{ text: prompt }] }],
                         generationConfig: {
-                            responseMimeType: "application/json"
+                            response_mime_type: "application/json" // Corretto in snake_case per la REST API
                         }
                     })
                 });
